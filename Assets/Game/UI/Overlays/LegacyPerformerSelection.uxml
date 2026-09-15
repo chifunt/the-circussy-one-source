@@ -1,0 +1,102 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/Hud.uss?fileID=7433441132597879392&amp;guid=42b16e5b088da410783ee233311de3ad&amp;type=3#Hud" />
+    <ui:VisualElement name="performer-selection" class="performer-selection">
+        <ui:VisualElement class="performer-panel">
+            <ui:Label text="CHOOSE PERFORMER" class="performer-heading" />
+            <ui:VisualElement class="performer-card-row">
+                <ui:VisualElement name="performer-choice-0" class="performer-card">
+                    <ui:VisualElement name="performer-portrait-0" class="performer-portrait" />
+                    <ui:Label name="performer-name-0" text="Devsample Sam" class="performer-name" />
+                    <ui:Label name="performer-title-0" text="The Dev Sample" class="performer-title" />
+                    <ui:Label name="performer-description-0" text="Baseline dev sample." class="performer-description" />
+                    <ui:VisualElement class="performer-weapon-row">
+                        <ui:VisualElement name="performer-weapon-icon-0" class="performer-weapon-icon" />
+                        <ui:Label name="performer-weapon-0" text="Weapon: Juggling Ball" class="performer-detail" />
+                    </ui:VisualElement>
+                    <ui:Label name="performer-passive-0" text="Passive: None" class="performer-detail" />
+                    <ui:Label name="performer-stats-0" text="Baseline stats" class="performer-stats" />
+                    <ui:Label name="performer-talents-0" text="Default projectile rhythm." class="performer-talents" />
+                </ui:VisualElement>
+                <ui:VisualElement name="performer-choice-1" class="performer-card">
+                    <ui:VisualElement name="performer-portrait-1" class="performer-portrait" />
+                    <ui:Label name="performer-name-1" text="Bruno" class="performer-name" />
+                    <ui:Label name="performer-title-1" text="The Cannon Strongman" class="performer-title" />
+                    <ui:Label name="performer-description-1" text="Durable performer." class="performer-description" />
+                    <ui:VisualElement class="performer-weapon-row">
+                        <ui:VisualElement name="performer-weapon-icon-1" class="performer-weapon-icon" />
+                        <ui:Label name="performer-weapon-1" text="Weapon: Cannon" class="performer-detail" />
+                    </ui:VisualElement>
+                    <ui:Label name="performer-passive-1" text="Passive: Armor" class="performer-detail" />
+                    <ui:Label name="performer-stats-1" text="+Armor, -Move Speed" class="performer-stats" />
+                    <ui:Label name="performer-talents-1" text="Heavy attacks." class="performer-talents" />
+                </ui:VisualElement>
+                <ui:VisualElement name="performer-choice-2" class="performer-card">
+                    <ui:VisualElement name="performer-portrait-2" class="performer-portrait" />
+                    <ui:Label name="performer-name-2" text="Mira" class="performer-name" />
+                    <ui:Label name="performer-title-2" text="The Knife Acrobat" class="performer-title" />
+                    <ui:Label name="performer-description-2" text="Fast risky performer." class="performer-description" />
+                    <ui:VisualElement class="performer-weapon-row">
+                        <ui:VisualElement name="performer-weapon-icon-2" class="performer-weapon-icon" />
+                        <ui:Label name="performer-weapon-2" text="Weapon: Knife Fan" class="performer-detail" />
+                    </ui:VisualElement>
+                    <ui:Label name="performer-passive-2" text="Passive: Speed" class="performer-detail" />
+                    <ui:Label name="performer-stats-2" text="+Move Speed, -Health" class="performer-stats" />
+                    <ui:Label name="performer-talents-2" text="Movement tempo." class="performer-talents" />
+                </ui:VisualElement>
+                <ui:VisualElement name="performer-choice-3" class="performer-card">
+                    <ui:VisualElement name="performer-portrait-3" class="performer-portrait" />
+                    <ui:Label name="performer-name-3" text="Vox" class="performer-name" />
+                    <ui:Label name="performer-title-3" text="The Spotlight Ringmaster" class="performer-title" />
+                    <ui:Label name="performer-description-3" text="Reward-focused performer." class="performer-description" />
+                    <ui:VisualElement class="performer-weapon-row">
+                        <ui:VisualElement name="performer-weapon-icon-3" class="performer-weapon-icon" />
+                        <ui:Label name="performer-weapon-3" text="Weapon: Spotlight Bolt" class="performer-detail" />
+                    </ui:VisualElement>
+                    <ui:Label name="performer-passive-3" text="Passive: Luck" class="performer-detail" />
+                    <ui:Label name="performer-stats-3" text="+Luck, +XP Gain" class="performer-stats" />
+                    <ui:Label name="performer-talents-3" text="Reward control." class="performer-talents" />
+                </ui:VisualElement>
+                <ui:VisualElement name="performer-choice-4" class="performer-card">
+                    <ui:VisualElement name="performer-portrait-4" class="performer-portrait" />
+                    <ui:Label name="performer-name-4" text="Sola" class="performer-name" />
+                    <ui:Label name="performer-title-4" text="The Fire Hoop Dancer" class="performer-title" />
+                    <ui:Label name="performer-description-4" text="Close-range hoop performer." class="performer-description" />
+                    <ui:VisualElement class="performer-weapon-row">
+                        <ui:VisualElement name="performer-weapon-icon-4" class="performer-weapon-icon" />
+                        <ui:Label name="performer-weapon-4" text="Weapon: Fire Hoop" class="performer-detail" />
+                    </ui:VisualElement>
+                    <ui:Label name="performer-passive-4" text="Passive: Hoop Size" class="performer-detail" />
+                    <ui:Label name="performer-stats-4" text="+Projectile Size, -Health" class="performer-stats" />
+                    <ui:Label name="performer-talents-4" text="Orbit pressure." class="performer-talents" />
+                </ui:VisualElement>
+                <ui:VisualElement name="performer-choice-5" class="performer-card">
+                    <ui:VisualElement name="performer-portrait-5" class="performer-portrait" />
+                    <ui:Label name="performer-name-5" text="Bibi" class="performer-name" />
+                    <ui:Label name="performer-title-5" text="The Ball Juggler" class="performer-title" />
+                    <ui:Label name="performer-description-5" text="Ricochet-focused performer." class="performer-description" />
+                    <ui:VisualElement class="performer-weapon-row">
+                        <ui:VisualElement name="performer-weapon-icon-5" class="performer-weapon-icon" />
+                        <ui:Label name="performer-weapon-5" text="Weapon: Juggling Ball" class="performer-detail" />
+                    </ui:VisualElement>
+                    <ui:Label name="performer-passive-5" text="Passive: Bounce" class="performer-detail" />
+                    <ui:Label name="performer-stats-5" text="+Bounce, -Attack Speed" class="performer-stats" />
+                    <ui:Label name="performer-talents-5" text="Ricochet rhythm." class="performer-talents" />
+                </ui:VisualElement>
+                <ui:VisualElement name="performer-choice-6" class="performer-card">
+                    <ui:VisualElement name="performer-portrait-6" class="performer-portrait" />
+                    <ui:Label name="performer-name-6" text="Devsample Cappa" class="performer-name" />
+                    <ui:Label name="performer-title-6" text="The Capsule Sample" class="performer-title" />
+                    <ui:Label name="performer-description-6" text="Capsule-face sample." class="performer-description" />
+                    <ui:VisualElement class="performer-weapon-row">
+                        <ui:VisualElement name="performer-weapon-icon-6" class="performer-weapon-icon" />
+                        <ui:Label name="performer-weapon-6" text="Weapon: Juggling Ball" class="performer-detail" />
+                    </ui:VisualElement>
+                    <ui:Label name="performer-passive-6" text="Passive: None" class="performer-detail" />
+                    <ui:Label name="performer-stats-6" text="Baseline stats" class="performer-stats" />
+                    <ui:Label name="performer-talents-6" text="Capsule projectile rhythm." class="performer-talents" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label text="Stick / D-Pad: choose  •  A / Enter: start  •  1-7: quick choose" class="performer-hint" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

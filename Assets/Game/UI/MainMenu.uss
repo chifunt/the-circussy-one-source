@@ -1,0 +1,510 @@
+.menu-root {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    color: rgb(246, 232, 176);
+    -unity-font-definition: url("../Fonts/Readex_Pro/ReadexPro-VariableFont_HEXP,wght.ttf");
+}
+
+.menu-screen {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 34px 48px 32px 48px;
+}
+
+.menu-screen--main {
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title-band {
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.menu-title {
+    -unity-font-definition: url("../Fonts/Budmo_Jiggler/Budmo-Jiggler.otf");
+    font-size: 88px;
+    color: rgb(14, 13, 13);
+    -unity-text-outline-color: rgba(255, 238, 170, 0.75);
+    -unity-text-outline-width: 2px;
+    -unity-text-align: middle-center;
+}
+
+.main-actions {
+    width: 338px;
+    align-items: stretch;
+}
+
+.marquee-button {
+    position: relative;
+    overflow: visible;
+    height: 74px;
+    min-height: 74px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgb(255, 236, 133);
+    border-right-color: rgb(255, 236, 133);
+    border-top-color: rgb(255, 236, 133);
+    border-bottom-color: rgb(255, 236, 133);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(213, 42, 35);
+    color: rgb(248, 229, 162);
+    -unity-font-definition: url("../Fonts/Budmo_Jiggler/Budmo-Jiggler.otf");
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.marquee-button:hover,
+.marquee-button:focus,
+.marquee-button.is-focused {
+    border-left-color: rgb(255, 250, 184);
+    border-right-color: rgb(255, 250, 184);
+    border-top-color: rgb(255, 250, 184);
+    border-bottom-color: rgb(255, 250, 184);
+    background-color: rgb(237, 52, 45);
+}
+
+.marquee-button:hover .marquee-frame,
+.marquee-button:focus .marquee-frame,
+.marquee-button.is-focused .marquee-frame {
+    border-left-color: rgb(255, 247, 169);
+    border-right-color: rgb(255, 247, 169);
+    border-top-color: rgb(255, 247, 169);
+    border-bottom-color: rgb(255, 247, 169);
+    background-color: rgb(13, 12, 11);
+}
+
+.marquee-button:active {
+    background-color: rgb(157, 22, 19);
+}
+
+.marquee-button:disabled {
+    opacity: 0.42;
+}
+
+.marquee-button--primary {
+    background-color: rgb(229, 49, 41);
+}
+
+.marquee-button--small {
+    height: 64px;
+    min-height: 64px;
+}
+
+.marquee-frame {
+    flex-grow: 1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(255, 226, 114);
+    border-right-color: rgb(255, 226, 114);
+    border-top-color: rgb(255, 226, 114);
+    border-bottom-color: rgb(255, 226, 114);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(16, 15, 14);
+}
+
+.marquee-label {
+    font-size: 24px;
+    color: rgb(255, 242, 178);
+    -unity-text-outline-color: rgb(31, 19, 14);
+    -unity-text-outline-width: 1px;
+    -unity-text-align: middle-center;
+}
+
+.marquee-label--arrow {
+    font-size: 32px;
+}
+
+.marquee-effect-root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.marquee-bulb-rail {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marquee-bulb-rail--top {
+    left: 12px;
+    right: 12px;
+    top: 5px;
+    height: 11px;
+    flex-direction: row;
+}
+
+.marquee-bulb-rail--right {
+    top: 12px;
+    right: 5px;
+    bottom: 12px;
+    width: 11px;
+    flex-direction: column;
+}
+
+.marquee-bulb-rail--bottom {
+    left: 12px;
+    right: 12px;
+    bottom: 5px;
+    height: 11px;
+    flex-direction: row;
+}
+
+.marquee-bulb-rail--left {
+    top: 12px;
+    left: 5px;
+    bottom: 12px;
+    width: 11px;
+    flex-direction: column;
+}
+
+.marquee-bulb {
+    position: relative;
+    width: 4px;
+    height: 4px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: rgb(255, 238, 137);
+}
+
+.back-button {
+    position: absolute;
+    left: 54px;
+    top: 40px;
+    width: 174px;
+}
+
+.select-title {
+    position: absolute;
+    right: 48px;
+    top: 38px;
+    width: 760px;
+    -unity-font-definition: url("../Fonts/Budmo_Jiggler/Budmo-Jiggler.otf");
+    font-size: 60px;
+    color: rgb(14, 13, 13);
+    -unity-text-outline-color: rgba(255, 238, 170, 0.75);
+    -unity-text-outline-width: 2px;
+    -unity-text-align: upper-right;
+}
+
+.performer-rail {
+    position: absolute;
+    left: 70px;
+    top: 128px;
+    bottom: 52px;
+    width: 122px;
+    align-items: center;
+    justify-content: center;
+}
+
+.performer-rail-arrow {
+    width: 112px;
+    height: 32px;
+    font-size: 32px;
+    color: rgb(14, 13, 13);
+    -unity-text-outline-color: rgb(255, 231, 121);
+    -unity-text-outline-width: 1px;
+    -unity-text-align: middle-center;
+}
+
+.performer-list {
+    width: 122px;
+    max-height: 488px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.performer-list .unity-scroll-view__content-container {
+    align-items: center;
+}
+
+.performer-list .unity-scroller,
+.performer-list .unity-scroll-view__vertical-scroller,
+.performer-list .unity-scroll-view__horizontal-scroller {
+    display: none;
+}
+
+.performer-card-template {
+    width: 112px;
+    min-height: 102px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.performer-row {
+    position: relative;
+    overflow: visible;
+    width: 102px;
+    height: 96px;
+    min-height: 96px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: rgb(213, 42, 35);
+}
+
+.performer-row .marquee-effect-root {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.performer-row:hover,
+.performer-row:focus,
+.performer-row.is-selected {
+    background-color: rgb(238, 55, 47);
+}
+
+.performer-row.is-selected {
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(255, 242, 146);
+    border-right-color: rgb(255, 242, 146);
+    border-top-color: rgb(255, 242, 146);
+    border-bottom-color: rgb(255, 242, 146);
+}
+
+.performer-row.is-selected .performer-card__frame {
+    border-left-color: rgb(255, 247, 169);
+    border-right-color: rgb(255, 247, 169);
+    border-top-color: rgb(255, 247, 169);
+    border-bottom-color: rgb(255, 247, 169);
+}
+
+.performer-card__frame {
+    flex-grow: 1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(255, 226, 114);
+    border-right-color: rgb(255, 226, 114);
+    border-top-color: rgb(255, 226, 114);
+    border-bottom-color: rgb(255, 226, 114);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(18, 16, 15);
+}
+
+.performer-card__portrait,
+.performer-row__portrait {
+    position: relative;
+    overflow: hidden;
+    width: 58px;
+    height: 58px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(250, 230, 154);
+    border-right-color: rgb(250, 230, 154);
+    border-top-color: rgb(250, 230, 154);
+    border-bottom-color: rgb(250, 230, 154);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.performer-model-window {
+    position: absolute;
+    left: 250px;
+    top: 132px;
+    right: 340px;
+    bottom: 168px;
+}
+
+.performer-info {
+    position: absolute;
+    left: 258px;
+    bottom: 52px;
+    width: 550px;
+}
+
+.performer-name {
+    -unity-font-definition: url("../Fonts/Budmo_Jiggler/Budmo-Jiggler.otf");
+    font-size: 52px;
+    color: rgb(255, 242, 178);
+    -unity-text-outline-color: rgb(13, 12, 12);
+    -unity-text-outline-width: 2px;
+}
+
+.performer-subtitle {
+    -unity-font-definition: url("../Fonts/Budmo_Jiggler/Budmo-Jiggler.otf");
+    font-size: 30px;
+    color: rgb(255, 224, 114);
+    -unity-text-outline-color: rgb(13, 12, 12);
+    -unity-text-outline-width: 2px;
+    margin-top: 4px;
+}
+
+.performer-description {
+    width: 480px;
+    font-size: 15px;
+    color: rgb(248, 232, 194);
+    -unity-text-outline-color: rgba(11, 8, 7, 0.85);
+    -unity-text-outline-width: 1px;
+    margin-top: 8px;
+    white-space: normal;
+}
+
+.weapon-panel {
+    position: absolute;
+    right: 54px;
+    top: 206px;
+    width: 250px;
+    align-items: center;
+}
+
+.weapon-icon {
+    position: relative;
+    overflow: hidden;
+    width: 76px;
+    height: 76px;
+    align-self: center;
+    margin-bottom: 12px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: rgb(255, 236, 133);
+    border-right-color: rgb(255, 236, 133);
+    border-top-color: rgb(255, 236, 133);
+    border-bottom-color: rgb(255, 236, 133);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(18, 16, 15);
+}
+
+.content-icon-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.weapon-name {
+    -unity-font-definition: url("../Fonts/Budmo_Jiggler/Budmo-Jiggler.otf");
+    font-size: 25px;
+    color: rgb(255, 242, 178);
+    -unity-text-outline-color: rgb(13, 12, 12);
+    -unity-text-outline-width: 1px;
+    -unity-text-align: middle-center;
+}
+
+.weapon-description {
+    width: 240px;
+    font-size: 14px;
+    color: rgb(248, 232, 194);
+    -unity-text-align: middle-center;
+    white-space: normal;
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+
+.panel-heading {
+    font-size: 12px;
+    color: rgb(255, 221, 91);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.panel-copy {
+    width: 240px;
+    font-size: 15px;
+    color: rgb(246, 232, 190);
+    -unity-text-outline-color: rgba(13, 10, 9, 0.8);
+    -unity-text-outline-width: 1px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    margin-top: 8px;
+}
+
+.start-run-button {
+    width: 224px;
+    height: 66px;
+    min-height: 66px;
+    margin-top: 18px;
+}
+
+.settings-panel {
+    width: 460px;
+    align-self: center;
+    margin-top: 150px;
+    padding: 18px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgb(246, 196, 64);
+    border-right-color: rgb(246, 196, 64);
+    border-top-color: rgb(246, 196, 64);
+    border-bottom-color: rgb(246, 196, 64);
+    background-color: rgba(18, 14, 13, 0.9);
+}
+
+.menu-footer-hint {
+    position: absolute;
+    left: 56px;
+    right: 56px;
+    bottom: 20px;
+    height: 24px;
+    font-size: 13px;
+    color: rgb(252, 225, 145);
+    -unity-text-outline-color: rgb(24, 13, 11);
+    -unity-text-outline-width: 1px;
+    -unity-text-align: middle-center;
+}
+
+.menu-footer-hint--select {
+    bottom: 12px;
+}
+
+.menu-empty {
+    color: rgb(248, 231, 188);
+    font-size: 15px;
+    white-space: normal;
+}

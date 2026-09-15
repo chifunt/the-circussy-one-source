@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/Hud.uss?fileID=7433441132597879392&amp;guid=42b16e5b088da410783ee233311de3ad&amp;type=3#Hud" />
+    <ui:Template name="GameplayHud" src="project://database/Assets/Game/UI/Hud/GameplayHud.uxml?fileID=9197481963319205126&amp;guid=d2ccd5fa28b1a4ec094c774140f10f98&amp;type=3#GameplayHud" />
+    <ui:Template name="ActAnnouncement" src="project://database/Assets/Game/UI/Overlays/ActAnnouncement.uxml?fileID=9197481963319205126&amp;guid=09f724592f86b451c9f5d91a794824f5&amp;type=3#ActAnnouncement" />
+    <ui:Template name="RunTransitionOverlay" src="project://database/Assets/Game/UI/Overlays/RunTransitionOverlay.uxml?fileID=9197481963319205126&amp;guid=3a40e41916b084da2b01cfa3324a115e&amp;type=3#RunTransitionOverlay" />
+    <ui:Template name="InteractionPrompt" src="project://database/Assets/Game/UI/Hud/InteractionPrompt.uxml?fileID=9197481963319205126&amp;guid=2de7f4a107ca641aabafa8d0064df9ad&amp;type=3#InteractionPrompt" />
+    <ui:Template name="CurtainCall" src="project://database/Assets/Game/UI/Overlays/CurtainCall.uxml?fileID=9197481963319205126&amp;guid=d0c7db4193bf84a43b007f38408b3e9f&amp;type=3#CurtainCall" />
+    <ui:Template name="ItemObtained" src="project://database/Assets/Game/UI/Overlays/ItemObtained.uxml?fileID=9197481963319205126&amp;guid=a75d1b36c3a0a4a66a00be2d431c30d7&amp;type=3#ItemObtained" />
+    <ui:Template name="LegacyPerformerSelection" src="project://database/Assets/Game/UI/Overlays/LegacyPerformerSelection.uxml?fileID=9197481963319205126&amp;guid=5a4f4c1a3799c4e878183afca9b22ee7&amp;type=3#LegacyPerformerSelection" />
+    <ui:Template name="UpgradeSelection" src="project://database/Assets/Game/UI/Overlays/UpgradeSelection.uxml?fileID=9197481963319205126&amp;guid=06619ddfbab004b9d9c2430c0a591bf8&amp;type=3#UpgradeSelection" />
+    <ui:Template name="PauseMenu" src="project://database/Assets/Game/UI/Overlays/PauseMenu.uxml?fileID=9197481963319205126&amp;guid=8b034e96d350b4c15bb40854c257c08b&amp;type=3#PauseMenu" />
+    <ui:VisualElement name="hud-root" class="hud-root">
+        <ui:Instance template="GameplayHud" class="hud-layer-slot" />
+        <ui:Instance template="ActAnnouncement" class="hud-layer-slot" />
+        <ui:Instance template="RunTransitionOverlay" class="hud-layer-slot" />
+        <ui:Instance template="InteractionPrompt" class="hud-layer-slot" />
+        <ui:Instance template="CurtainCall" class="hud-layer-slot" />
+        <ui:Instance template="ItemObtained" class="hud-layer-slot" />
+        <ui:Instance template="LegacyPerformerSelection" class="hud-layer-slot" />
+        <ui:Instance template="UpgradeSelection" class="hud-layer-slot" />
+        <ui:Instance template="PauseMenu" class="hud-layer-slot" />
+    </ui:VisualElement>
+</ui:UXML>

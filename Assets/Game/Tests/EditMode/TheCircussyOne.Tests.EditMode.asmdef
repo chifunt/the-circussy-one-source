@@ -1,0 +1,34 @@
+{
+  "name": "TheCircussyOne.Tests.EditMode",
+  "rootNamespace": "TheCircussyOne.Tests.EditMode",
+  "references": [
+    "TheCircussyOne.Runtime",
+    "TheCircussyOne.Editor",
+    "TheCircussyOne.VisualTests.Runtime",
+    "TheCircussyOne.VisualTests.Editor",
+    "MoreMountains.Tools",
+    "UniTask",
+    "ShapesRuntime",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Sirenix.OdinInspector.Attributes.dll",
+    "Sirenix.Serialization.dll",
+    "Sirenix.Utilities.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

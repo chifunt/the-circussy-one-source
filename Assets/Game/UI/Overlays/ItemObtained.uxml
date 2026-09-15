@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/Hud.uss?fileID=7433441132597879392&amp;guid=42b16e5b088da410783ee233311de3ad&amp;type=3#Hud" />
+    <ui:VisualElement name="reward-reveal" class="reward-reveal">
+        <ui:VisualElement name="reward-reveal-ray-layer" class="reward-reveal-ray-layer ui-ray-layer" picking-mode="Ignore" />
+        <ui:VisualElement name="reward-reveal-heading-stack" class="reward-reveal-heading-stack" picking-mode="Ignore">
+            <ui:Label name="reward-reveal-title-glow" text="ITEM OBTAINED" class="reward-reveal-title reward-reveal-title-glow" picking-mode="Ignore" />
+            <ui:Label name="reward-reveal-title" text="ITEM OBTAINED" class="reward-reveal-title reward-reveal-title-main" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="reward-reveal-card" class="reward-reveal-card">
+            <ui:VisualElement name="reward-reveal-icon" class="reward-reveal-icon" />
+            <ui:Label name="reward-reveal-rarity" text="COMMON" class="reward-reveal-rarity" />
+            <ui:Label name="reward-reveal-name" text="Reward Name" class="reward-reveal-name" />
+            <ui:Label name="reward-reveal-description" text="Reward description." class="reward-reveal-description" />
+            <ui:Label name="reward-reveal-effect" text="Effect summary." class="reward-reveal-effect" />
+            <ui:Label name="reward-reveal-stack" text="NEW ITEM" class="reward-reveal-stack" />
+        </ui:VisualElement>
+        <ui:VisualElement name="reward-reveal-dismiss-row" class="reward-reveal-dismiss-row">
+            <ui:Button name="reward-reveal-dismiss" text="ON WITH THE SHOW!" class="reward-reveal-dismiss marquee-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

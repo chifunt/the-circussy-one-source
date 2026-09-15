@@ -1,0 +1,33 @@
+{
+  "name": "TheCircussyOne.Editor",
+  "rootNamespace": "TheCircussyOne.Editor",
+  "references": [
+    "TheCircussyOne.Runtime",
+    "MoreMountains.Tools",
+    "VContainer",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.TextMeshPro",
+    "UnityEditor.TestRunner",
+    "TheCircussyOne.VisualTests.Editor",
+    "VHierarchy"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Sirenix.OdinInspector.Attributes.dll",
+    "Sirenix.OdinInspector.Editor.dll",
+    "Sirenix.Reflection.Editor.dll",
+    "Sirenix.Serialization.dll",
+    "Sirenix.Utilities.dll",
+    "Sirenix.Utilities.Editor.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

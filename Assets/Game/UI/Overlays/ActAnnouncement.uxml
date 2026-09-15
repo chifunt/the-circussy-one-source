@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/Hud.uss?fileID=7433441132597879392&amp;guid=42b16e5b088da410783ee233311de3ad&amp;type=3#Hud" />
+    <ui:VisualElement name="act-banner" class="act-banner" picking-mode="Ignore">
+        <ui:Label name="act-banner-kicker" text="ACT I" class="act-banner-kicker" />
+        <ui:Label name="act-banner-title" text="Opening Act" class="act-banner-title" />
+    </ui:VisualElement>
+</ui:UXML>

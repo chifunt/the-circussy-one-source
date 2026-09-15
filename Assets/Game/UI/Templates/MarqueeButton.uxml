@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=e0f32566da6e5433ebd1344b79a8e106&amp;type=3#MainMenu"/>
+    <ui:Button name="marquee-button" class="marquee-button">
+        <ui:VisualElement class="marquee-frame">
+            <ui:Label name="marquee-label" text="BUTTON" class="marquee-label" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

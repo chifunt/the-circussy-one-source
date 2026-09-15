@@ -1,0 +1,29 @@
+{
+  "name": "TheCircussyOne.Runtime",
+  "rootNamespace": "TheCircussyOne",
+  "references": [
+    "VContainer",
+    "UniTask",
+    "PrimeTween.Runtime",
+    "Kybernetik.Animancer",
+    "ShapesRuntime",
+    "MoreMountains.Tools",
+    "Unity.InputSystem",
+    "Unity.TextMeshPro",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Sirenix.OdinInspector.Attributes.dll",
+    "Sirenix.Serialization.dll",
+    "Sirenix.Utilities.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "TheCircussyOne.Tests.PlayMode",
+  "rootNamespace": "TheCircussyOne.Tests.PlayMode",
+  "references": [
+    "TheCircussyOne.Runtime",
+    "TheCircussyOne.VisualTests.Runtime",
+    "VContainer",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Sirenix.OdinInspector.Attributes.dll",
+    "Sirenix.Serialization.dll",
+    "Sirenix.Utilities.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=e0f32566da6e5433ebd1344b79a8e106&amp;type=3#MainMenu"/>
+    <ui:VisualElement name="settings-panel" class="settings-panel reusable-settings-panel" style="height: 491px; justify-content: center;">
+        <ui:Label text="SETTINGS" class="select-title settings-title" style="color: rgb(255, 196, 0); top: 22px; right: 87px; width: 262px; align-items: auto;"/>
+        <ui:Label text="COMING SOON" class="panel-heading settings-heading"/>
+        <ui:Button name="settings-back-button" class="marquee-button settings-back-button">
+            <ui:VisualElement class="marquee-frame" style="font-size: 0;">
+                <ui:Label text="BACK" class="marquee-label" style="font-size: 39px;"/>
+            </ui:VisualElement>
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

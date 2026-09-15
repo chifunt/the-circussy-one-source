@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/Hud.uss?fileID=7433441132597879392&amp;guid=42b16e5b088da410783ee233311de3ad&amp;type=3#Hud" />
+    <ui:VisualElement name="interaction-prompt" class="interaction-prompt">
+        <ui:Label name="interaction-button-glyph" text="E" class="interaction-button-glyph interaction-button-glyph--keyboard" />
+        <ui:Label name="interaction-prompt-label" text="Hold to Collect Tickets" class="interaction-prompt-label" />
+        <ui:VisualElement class="interaction-progress-track">
+            <ui:VisualElement name="interaction-progress-fill" class="interaction-progress-fill" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/Hud.uss?fileID=7433441132597879392&amp;guid=42b16e5b088da410783ee233311de3ad&amp;type=3#Hud" />
+    <ui:VisualElement name="upgrade-selection" class="upgrade-selection">
+        <ui:VisualElement name="upgrade-ray-layer" class="upgrade-ray-layer ui-ray-layer" picking-mode="Ignore" />
+        <ui:VisualElement class="upgrade-panel">
+            <ui:VisualElement name="upgrade-heading-stack" class="upgrade-heading-stack" picking-mode="Ignore">
+                <ui:Label name="upgrade-heading-glow" text="TAKE YOUR PICK!" class="upgrade-heading upgrade-heading-glow" picking-mode="Ignore" />
+                <ui:Label name="upgrade-heading" text="TAKE YOUR PICK!" class="upgrade-heading upgrade-heading-main" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement class="upgrade-card-row">
+                <ui:VisualElement name="upgrade-choice-0" class="upgrade-card">
+                    <ui:VisualElement name="upgrade-rarity-strip-0" class="upgrade-rarity-strip" />
+                    <ui:Label name="upgrade-rarity-0" text="COMMON" class="upgrade-rarity" />
+                    <ui:Label name="upgrade-title-0" text="Upgrade" class="upgrade-title" />
+                    <ui:VisualElement name="upgrade-icon-0" class="upgrade-icon" />
+                    <ui:Label name="upgrade-description-0" text="Description" class="upgrade-description" />
+                    <ui:Label name="upgrade-preview-0" text="Stat 100% -&gt; 110%" class="upgrade-preview" />
+                    <ui:Label name="upgrade-level-0" text="LV 0 -&gt; 1" class="upgrade-level" />
+                </ui:VisualElement>
+                <ui:VisualElement name="upgrade-choice-1" class="upgrade-card">
+                    <ui:VisualElement name="upgrade-rarity-strip-1" class="upgrade-rarity-strip" />
+                    <ui:Label name="upgrade-rarity-1" text="COMMON" class="upgrade-rarity" />
+                    <ui:Label name="upgrade-title-1" text="Upgrade" class="upgrade-title" />
+                    <ui:VisualElement name="upgrade-icon-1" class="upgrade-icon" />
+                    <ui:Label name="upgrade-description-1" text="Description" class="upgrade-description" />
+                    <ui:Label name="upgrade-preview-1" text="Stat 100% -&gt; 110%" class="upgrade-preview" />
+                    <ui:Label name="upgrade-level-1" text="LV 0 -&gt; 1" class="upgrade-level" />
+                </ui:VisualElement>
+                <ui:VisualElement name="upgrade-choice-2" class="upgrade-card">
+                    <ui:VisualElement name="upgrade-rarity-strip-2" class="upgrade-rarity-strip" />
+                    <ui:Label name="upgrade-rarity-2" text="COMMON" class="upgrade-rarity" />
+                    <ui:Label name="upgrade-title-2" text="Upgrade" class="upgrade-title" />
+                    <ui:VisualElement name="upgrade-icon-2" class="upgrade-icon" />
+                    <ui:Label name="upgrade-description-2" text="Description" class="upgrade-description" />
+                    <ui:Label name="upgrade-preview-2" text="Stat 100% -&gt; 110%" class="upgrade-preview" />
+                    <ui:Label name="upgrade-level-2" text="LV 0 -&gt; 1" class="upgrade-level" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label text="Stick / D-Pad: choose  •  A / Enter: confirm  •  1 / 2 / 3: quick choose" class="upgrade-hint" />
+        </ui:VisualElement>
+        <ui:VisualElement name="upgrade-confetti-layer" class="upgrade-confetti-layer ui-confetti-layer" picking-mode="Ignore" />
+    </ui:VisualElement>
+</ui:UXML>

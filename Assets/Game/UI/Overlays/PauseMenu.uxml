@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/Hud.uss?fileID=7433441132597879392&amp;guid=42b16e5b088da410783ee233311de3ad&amp;type=3#Hud" />
+    <ui:Template name="SettingsPanel" src="project://database/Assets/Game/UI/Settings/SettingsPanel.uxml?fileID=9197481963319205126&amp;guid=941ec816e9d0e4ac781246918c15c6a3&amp;type=3#SettingsPanel" />
+    <ui:VisualElement name="pause-menu" class="pause-menu">
+        <ui:VisualElement name="pause-menu-panel" class="pause-menu-panel">
+            <ui:Label name="pause-menu-title" text="THE CIRCUSSY ONE" class="pause-menu-title" />
+            <ui:VisualElement name="pause-menu-body" class="pause-menu-body">
+                <ui:VisualElement name="pause-menu-items-panel" class="pause-menu-side-panel pause-menu-items-panel">
+                    <ui:VisualElement name="pause-menu-items" class="pause-menu-items">
+                        <ui:Label text="ITEMS" class="pause-menu-section-title" />
+                        <ui:Label name="pause-menu-items-empty" text="No items yet." class="pause-menu-items-empty" />
+                        <ui:VisualElement name="pause-menu-item-list" class="pause-menu-item-list" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="pause-menu-actions" class="pause-menu-actions">
+                    <ui:Button name="pause-menu-resume-button" text="RESUME" class="marquee-button pause-menu-button" />
+                    <ui:Button name="pause-menu-settings-button" text="SETTINGS" class="marquee-button pause-menu-button" />
+                    <ui:Button name="pause-menu-debug-button" text="DEBUG" class="marquee-button pause-menu-button" />
+                    <ui:Button name="pause-menu-end-run-button" text="END RUN" class="marquee-button pause-menu-button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="pause-menu-stats-panel" class="pause-menu-side-panel pause-menu-stats-panel">
+                    <ui:Label text="STATS" class="pause-menu-section-title" />
+                    <ui:Label name="pause-menu-state" text="" class="pause-menu-state" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="pause-settings-host" class="pause-settings-host">
+                <ui:Instance template="SettingsPanel" />
+            </ui:VisualElement>
+            <ui:ScrollView name="pause-menu-debug-container" mode="Vertical" class="pause-menu-debug-container">
+                <ui:VisualElement name="pause-menu-debug" class="pause-menu-debug" />
+            </ui:ScrollView>
+            <ui:Label name="pause-menu-status" text="" class="pause-menu-status" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

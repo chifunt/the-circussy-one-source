@@ -1,0 +1,57 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/Hud.uss?fileID=7433441132597879392&amp;guid=42b16e5b088da410783ee233311de3ad&amp;type=3#Hud" />
+    <ui:VisualElement name="damage-vignette" class="damage-vignette" picking-mode="Ignore" />
+
+    <ui:VisualElement class="xp-strip">
+        <ui:VisualElement class="xp-track">
+            <ui:VisualElement name="xp-fill" class="xp-fill">
+                <ui:VisualElement name="xp-pulse" class="xp-pulse" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement name="xp-segments" class="xp-segments" picking-mode="Ignore" />
+            <ui:Label name="xp-value" text="" class="xp-value-hidden" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement class="hud-under-row">
+        <ui:Label name="level-value" text="1" class="level-badge" />
+        <ui:VisualElement class="health-cluster">
+            <ui:VisualElement class="health-track">
+                <ui:VisualElement name="health-fill" class="health-fill" />
+                <ui:VisualElement name="health-segments" class="health-segments" picking-mode="Ignore" />
+                <ui:Label name="health-value" text="100 / 100" class="health-value" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="tickets-cluster">
+            <ui:VisualElement name="tickets-icon" class="hud-counter-icon tickets-icon" picking-mode="Ignore" />
+            <ui:Label name="tickets-value" text="0" class="tickets-value" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="timer-cluster" class="timer-cluster">
+            <ui:VisualElement name="timer-icon" class="hud-counter-icon timer-icon" picking-mode="Ignore" />
+            <ui:Label name="timer-value" text="00:00" class="timer-value" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="kills-cluster">
+            <ui:VisualElement name="kills-icon" class="hud-counter-icon kills-icon" picking-mode="Ignore" />
+            <ui:Label name="kills-value" text="0" class="kills-value" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="weapon-slot-row" class="weapon-slot-row">
+            <ui:VisualElement name="weapon-slot-0" class="weapon-slot">
+                <ui:Label name="weapon-slot-level-0" text="" class="weapon-slot-level" />
+            </ui:VisualElement>
+            <ui:VisualElement name="weapon-slot-1" class="weapon-slot">
+                <ui:Label name="weapon-slot-level-1" text="" class="weapon-slot-level" />
+            </ui:VisualElement>
+            <ui:VisualElement name="weapon-slot-2" class="weapon-slot">
+                <ui:Label name="weapon-slot-level-2" text="" class="weapon-slot-level" />
+            </ui:VisualElement>
+            <ui:VisualElement name="weapon-slot-3" class="weapon-slot">
+                <ui:Label name="weapon-slot-level-3" text="" class="weapon-slot-level" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="item-stack-column" class="item-stack-column" />
+</ui:UXML>

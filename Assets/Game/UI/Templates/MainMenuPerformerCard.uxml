@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=e0f32566da6e5433ebd1344b79a8e106&amp;type=3#MainMenu"/>
+    <ui:Button name="performer-card-button" class="marquee-button performer-card performer-row">
+        <ui:VisualElement class="marquee-frame performer-card__frame" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+            <ui:VisualElement name="performer-card-portrait" class="performer-card__portrait performer-row__portrait" style="height: 86px; width: 92px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

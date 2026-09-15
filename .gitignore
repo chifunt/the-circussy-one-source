@@ -1,0 +1,23 @@
+# Keep the reading archive free of private/generated/vendor material.
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.keystore
+*.ulf
+.security-audit/
+Library/
+Temp/
+Logs/
+UserSettings/
+Build/
+Builds/
+Assets/_ThirdParty/
+Assets/Plugins/
+Assets/Wwise/
+Packages/
+ProjectSettings/
+*_WwiseProject/

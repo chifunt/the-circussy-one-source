@@ -1,0 +1,42 @@
+namespace TheCircussyOne.Stats
+{
+    public enum StatId
+    {
+        PlayerMaxHealth,
+        PlayerArmor,
+        PlayerMoveSpeedMultiplier,
+        PickupMagnetRadius,
+        PickupCollectRadius,
+        XpGainMultiplier,
+        Luck,
+        GlobalDamageMultiplier,
+        GlobalWeaponHaste,
+        CritChance,
+        CritDamageMultiplier,
+        ProjectileSpeedMultiplier,
+        ProjectileAreaMultiplier,
+        ProjectileDurationMultiplier,
+        ProjectileCount,
+        Pierce,
+        Bounce,
+        Chain,
+        PlayerHpRegenPerMinute,
+        PlayerLifestealChance,
+        PlayerKnockbackMultiplier,
+        PlayerExtraJumps,
+        WeaponDamageMultiplier,
+        WeaponAttackSpeed,
+        WeaponProjectileCount,
+        WeaponProjectileSpeedMultiplier,
+        WeaponProjectileSizeMultiplier,
+        WeaponProjectileLifetimeMultiplier,
+        WeaponSplashRadiusMultiplier,
+        WeaponRangeMultiplier,
+        WeaponPierce,
+        WeaponBounce,
+        WeaponAccuracyMultiplier,
+        WeaponKnockbackMultiplier,
+        WeaponChain,
+        WeaponFlatDamage
+    }
+}

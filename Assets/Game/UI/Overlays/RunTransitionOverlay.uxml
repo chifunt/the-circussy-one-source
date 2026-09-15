@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/Game/UI/Hud.uss?fileID=7433441132597879392&amp;guid=42b16e5b088da410783ee233311de3ad&amp;type=3#Hud" />
+    <ui:VisualElement name="intermission-overlay" class="intermission-overlay" picking-mode="Ignore">
+        <ui:Label name="intermission-title" text="INTERMISSION" class="intermission-title" />
+        <ui:Label name="intermission-subtitle" text="Preparing ACT II..." class="intermission-subtitle" />
+    </ui:VisualElement>
+</ui:UXML>

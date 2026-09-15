@@ -1,0 +1,65 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=e0f32566da6e5433ebd1344b79a8e106&amp;type=3#MainMenu"/>
+    <ui:Template name="SettingsPanel" src="project://database/Assets/Game/UI/Settings/SettingsPanel.uxml?fileID=9197481963319205126&amp;guid=941ec816e9d0e4ac781246918c15c6a3&amp;type=3#SettingsPanel" />
+    <ui:VisualElement name="menu-root" class="menu-root">
+        <ui:VisualElement name="main-menu-screen" class="menu-screen menu-screen--main">
+            <ui:VisualElement class="main-title-band">
+                <ui:Label name="game-title" text="THE CIRCUSSY ONE" class="menu-title" style="font-size: 169px; -unity-font-definition: url(&quot;project://database/Assets/Game/Fonts/Budmo_Jiggler/Budmo-Jiggler.otf?fileID=12800000&amp;guid=de48e2fc4acf84706ab22e2d2615be5b&amp;type=3#Budmo-Jiggler&quot;); -unity-font-style: bold; -unity-text-outline-width: 7px; text-shadow: 0 0 106.3px rgb(255, 236, 133); -unity-text-auto-size: none; -unity-text-outline-color: rgb(255, 236, 133);"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-actions">
+                <ui:Button name="start-button" class="marquee-button marquee-button--primary" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; align-items: stretch; justify-content: center;">
+                    <ui:VisualElement name="VisualElement" class="marquee-frame" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                        <ui:Label text="START" name="Label" class="marquee-label" style="-unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/Game/Fonts/Budmo_Jiggler/Budmo-Jiggler.otf?fileID=12800000&amp;guid=de48e2fc4acf84706ab22e2d2615be5b&amp;type=3#Budmo-Jiggler&quot;); font-size: 40px;"/>
+                    </ui:VisualElement>
+                </ui:Button>
+                <ui:Button name="settings-button" class="marquee-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                    <ui:VisualElement class="marquee-frame" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                        <ui:Label text="SETTINGS" class="marquee-label" style="font-size: 40px; -unity-font-definition: url(&quot;project://database/Assets/Game/Fonts/Budmo_Jiggler/Budmo-Jiggler.otf?fileID=12800000&amp;guid=de48e2fc4acf84706ab22e2d2615be5b&amp;type=3#Budmo-Jiggler&quot;);"/>
+                    </ui:VisualElement>
+                </ui:Button>
+                <ui:Button name="quit-button" class="marquee-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                    <ui:VisualElement class="marquee-frame" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                        <ui:Label text="QUIT" class="marquee-label" style="font-size: 40px; -unity-font-definition: url(&quot;project://database/Assets/Game/Fonts/Budmo_Jiggler/Budmo-Jiggler.otf?fileID=12800000&amp;guid=de48e2fc4acf84706ab22e2d2615be5b&amp;type=3#Budmo-Jiggler&quot;);"/>
+                    </ui:VisualElement>
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:Label text="D-Pad / Stick: choose  -  A / Enter: select" class="menu-footer-hint"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="performer-select-screen" class="menu-screen menu-screen--performer">
+            <ui:Button name="performer-back-button" class="marquee-button marquee-button--small back-button">
+                <ui:VisualElement class="marquee-frame">
+                    <ui:Label text="&lt;-" class="marquee-label marquee-label--arrow"/>
+                </ui:VisualElement>
+            </ui:Button>
+            <ui:Label text="SELECT YOUR PERFORMER!" class="select-title" style="-unity-font-definition: url(&quot;project://database/Assets/Game/Fonts/Rye/Rye-Regular.ttf?fileID=12800000&amp;guid=1efa9a71b0a20424288a2cf80f0cacea&amp;type=3#Rye-Regular&quot;); -unity-text-outline-width: 2px; color: rgb(255, 238, 169); text-shadow: 0 0 3px rgb(255, 238, 168); -unity-text-outline-color: rgba(0, 0, 0, 0.71); -unity-font-style: bold;"/>
+            <ui:VisualElement class="performer-rail">
+                <ui:Label text="^" class="performer-rail-arrow performer-rail-arrow--top"/>
+                <ui:ScrollView name="performer-list" mode="Vertical" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" class="performer-list"/>
+                <ui:Label text="v" class="performer-rail-arrow performer-rail-arrow--bottom"/>
+            </ui:VisualElement>
+            <ui:VisualElement picking-mode="Ignore" class="performer-model-window"/>
+            <ui:VisualElement class="performer-info">
+                <ui:Label name="performer-name" text="PERFORMER NAME" class="performer-name" style="-unity-font-definition: url(&quot;project://database/Assets/Game/Fonts/Rye/Rye-Regular.ttf?fileID=12800000&amp;guid=1efa9a71b0a20424288a2cf80f0cacea&amp;type=3#Rye-Regular&quot;); -unity-text-outline-width: 2px; text-shadow: 0 0 3px rgb(255, 242, 178); -unity-text-outline-color: rgba(13, 12, 12, 0.55); -unity-font-style: bold;"/>
+                <ui:Label name="performer-title" text="PERFORMER TITLE" class="performer-subtitle" style="-unity-font-definition: url(&quot;project://database/Assets/Game/Fonts/Rye/Rye-Regular.ttf?fileID=12800000&amp;guid=1efa9a71b0a20424288a2cf80f0cacea&amp;type=3#Rye-Regular&quot;); -unity-text-outline-width: 0;"/>
+                <ui:Label name="performer-description" text="" class="performer-description"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="weapon-panel">
+                <ui:VisualElement name="weapon-icon" class="weapon-icon"/>
+                <ui:Label name="weapon-name" text="Weapon Name" class="weapon-name" style="-unity-font-definition: url(&quot;project://database/Assets/Game/Fonts/Rye/Rye-Regular.ttf?fileID=12800000&amp;guid=1efa9a71b0a20424288a2cf80f0cacea&amp;type=3#Rye-Regular&quot;); -unity-font-style: bold;"/>
+                <ui:Label name="weapon-description" text="" class="weapon-description"/>
+                <ui:Label text="BASE STATS" class="panel-heading"/>
+                <ui:Label name="performer-stats" text="" class="panel-copy"/>
+                <ui:Button name="performer-start-button" class="marquee-button start-run-button">
+                    <ui:VisualElement class="marquee-frame">
+                        <ui:Label text="START RUN" class="marquee-label"/>
+                    </ui:VisualElement>
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:Label text="D-Pad / Stick: choose performer  -  A / Enter: start  -  B / Esc: back" class="menu-footer-hint menu-footer-hint--select"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="settings-screen" class="menu-screen menu-screen--settings">
+            <ui:Instance template="SettingsPanel" />
+            <ui:Label text="B / Esc: back" class="menu-footer-hint"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
