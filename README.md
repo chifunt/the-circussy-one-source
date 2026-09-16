@@ -6,6 +6,14 @@ A Unity roguelite with generated circus arenas, automatic weapons, and tools for
 
 [Gameplay, development recordings, and diagrams](https://www.joshuatjhie.com/projects/the-circussy-one)
 
+## Play the Prototype
+
+The June 28 presentation build is available for [Windows 64-bit (123 MB)](https://github.com/chifunt/the-circussy-one-source/releases/download/prototype-2026-06-28/The-Circussy-One-Windows-x64.zip) and [macOS 12 or later (137 MB)](https://github.com/chifunt/the-circussy-one-source/releases/download/prototype-2026-06-28/The-Circussy-One-macOS-Universal.zip). The Mac build supports Intel and Apple silicon.
+
+Extract the whole ZIP before opening the game. Both downloads include launch instructions and controls. The Mac prototype is not Apple-notarized; see the [release notes and first-launch help](https://github.com/chifunt/the-circussy-one-source/releases/tag/prototype-2026-06-28).
+
+These are prebuilt game binaries. The source archive below is a separate reading snapshot, not a complete record of their build inputs. GitHub's automatic **Source code** downloads are not playable builds.
+
 ## Start With the Engineering
 
 Two bugs explain much of the work behind the prototype. An invalid collision contact sent an enemy's height query to the world origin. A loading overlay froze because its asynchronous transition still contained synchronous texture generation. The project article follows the evidence and fixes.
@@ -36,4 +44,4 @@ The full project uses Unity 6000.3.6f1, URP, Input System, UI Toolkit, UniTask, 
 
 `PUBLICATION.json` records the source revision and SHA-256 hashes of the 1,308 exported source and metadata files. No original commit history is included.
 
-No reuse licence is granted for this snapshot. Copyright remains with the respective authors. Third-party packages and assets are not included or relicensed. The archive is published so readers can inspect the implementation alongside the project writeup.
+No reuse licence is granted for this source snapshot. Copyright remains with the respective authors. The source snapshot excludes third-party packages and source assets. Playable releases contain the compiled game and its runtime assets; publishing them does not relicense those assets. The archive is published so readers can inspect the implementation alongside the project writeup.
